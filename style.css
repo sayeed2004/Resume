@@ -1,0 +1,261 @@
+body {
+/*  background-color: black;*/
+}
+
+div.body-wrapper {
+  width: 100%;
+  min-width: 350px;
+  max-width: 1600px;
+}
+
+div.left-main {
+  background-color: #1565C0;
+  text-align: center;
+  margin-top: 0%;
+  padding-bottom: 23%;
+}
+
+.left-main h2,
+.left-main h5,
+.left-main p {
+  color: white;
+}
+
+.left-main h2 {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+div.right-main {
+  background-color: white;
+  margin-top: 2%;
+}
+
+div.profile {
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.profile p {
+  letter-spacing: .25em;
+}
+
+div.contact {
+  margin-top: 50px;
+}
+.address li {
+  text-align: left;
+  font-size: .8em;
+  color: white;
+}
+
+.right-main-content ul {
+  list-style-position: outside;
+  list-style-type: circle;
+}
+
+.right-main-content h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 2%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  display:inline;
+  vertical-align: middle;
+}
+
+.right-main-content hr {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.right-main-content h4 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.right-main-content h5 {
+  display: inline;
+  font-size: 1.25em;
+  font-weight: 500;
+  margin-left: 0%;
+  margin-bottom: 1%;
+  margin-top: 0%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.skills {
+  width: 100%;
+  height: auto;
+  /* border-style: dashed; */
+  /* border-width: medium; */
+  /* border-color: red;   */
+}
+
+.skills ul {
+  list-style-type: none;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.hobbies ul {
+  list-style-type: none;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+.hobbies li {
+  margin-bottom: 2%;
+  display: inline;
+  margin-left: 0%;
+  margin-right: 2%;
+}
+
+.hobbies h5 {
+  vertical-align: middle;
+  margin-left: 6%;
+  font-weight: 600;
+}
+
+.hobbies img {
+  vertical-align: middle;
+}
+
+.skills li {
+  margin-bottom: 2%;
+  display: inline-grid;
+  margin-left: 6%;
+  margin-right: 6%;
+  text-align: center;
+}
+
+.skills h5 {
+  display: block;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+progress {
+  display: inline;
+  background: grey;
+  width: 200px;
+  height: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+}
+
+div.edu,
+div.exp {
+  margin-bottom: 2%;
+}
+
+.plain {
+  list-style-type: none;
+}
+
+.image-wrapper {
+  width: 100%;
+}
+
+.thumb {
+  width: 60%;
+  margin-top: 7%;
+}
+
+.icon {
+  width: 12%;
+  vertical-align: middle;
+}
+
+.tiny {
+  width: 8%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+
+.label {
+  display: none;
+}
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .label {
+    display: none;
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .label {
+    display: none;
+  }
+
+  .profile {
+    height: 1100px;
+  }
+
+  .left-main h2 {
+    font-size: 1.75em;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .label {
+    display: none;
+  }
+
+  .profile {
+    height: 1050px;
+  }
+
+  .left-main h2 {
+    font-size: 2.25em;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .label {
+    display: inline;
+  }
+
+  .profile {
+    height: 950px;
+  }
+
+  .left-main h2 {
+    font-size: 2.5em;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  .label {
+    display: inline;
+  }
+
+  .profile {
+    height: 900px;
+  }
+
+  .left-main h2 {
+    font-size: 2.75em;
+  }
+}
